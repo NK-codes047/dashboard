@@ -1,0 +1,124 @@
+#mySidebar{
+    display: none;
+    flex-direction: column;
+    width: 25%;
+    background: linear-gradient(to bottom, rgb(96, 65, 253), rgb(58, 236, 249));
+    height: 100vh;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    position: absolute;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    color: black;
+    transition: 0.3s ease;
+    background: linear-gradient(to right, rgb(176, 242, 252),rgb(176, 216, 252));
+}
+#mySidebar button{
+    margin: 8px;
+    border: none;
+    height: 35px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.sidebar{
+    position: fixed;
+    width: 50px;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(96, 65, 253), rgb(58, 236, 249));
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+.sidebar button{
+    margin: 8px;
+    padding: 5px;
+    cursor: pointer;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    transition: 0.3s ease;
+}
+.main{
+    margin-left: 60px;
+
+}
+.card_pannel{
+    display: flex;
+    width: 100%;
+}
+.card{
+    background: linear-gradient(to bottom, rgb(96, 65, 253), rgb(58, 236, 249));
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 20%;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none;
+}
+
+.data_table{
+    margin-left: 10%;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td{
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+th button{
+    margin: 8px;
+    padding: 5px;
+    cursor: pointer;
+    width: 35px;
+    border: none;
+    border-radius: 50%;
+    height: 35px;
+    transition: 0.3s ease;
+}
+tr:hover{
+    background-color: lightskyblue;
+}
+th:hover{
+    background-color: rgb(66, 176, 244);
+}
+#user{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.head{
+    display: flex;
+}
+h2{
+    margin-right: 80%;
+}
+.user{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(184, 250, 184);
+    display: none;
+    top: 55px;
+    right: 63px;
+    position: absolute;
+    text-align: center;
+}
+#userPannel button{
+    margin: 10px;
+}
